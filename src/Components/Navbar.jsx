@@ -6,9 +6,9 @@ export default function Navbar() {
     <div className="nav">
       {' '}
       <ul>
+        <CustomLink to="/Home">Home</CustomLink>
         <CustomLink to="/about">About</CustomLink>
         <CustomLink to="/Contact">Contact</CustomLink>
-        <CustomLink to="/Home">Home</CustomLink>
       </ul>
     </div>
   )
