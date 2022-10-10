@@ -1,3 +1,46 @@
+* { box-sizing: border-box;}
+
+
+body { margin: 0; }
+
+.nav {
+  background-color: rgb(245, 242, 242);
+  color:#0c0c0c;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3rem;
+  padding: 0 3rem;
+
+}
+
+.nav ul{ 
+  font-size: 3rem;
+  padding: 0rem;
+  margin: 0;
+  list-style: none;
+  display: flex; 
+  gap: 1rem;
+
+}
+
+.nav a{
+  color: inherit;
+  text-decoration: none;
+  height: 100%;
+}
+
+.nav li.active {
+  color:rgb(245, 242, 242);
+  background-color: rgb(55, 57, 57);
+  padding: 1rem;
+  
+}
+
+.nav li:hover {
+  background-color:rgb(140, 157, 157); padding: 1rem;;
+}
+
 .App {
   text-align: center;
 }
@@ -36,3 +79,5 @@
     transform: rotate(360deg);
   }
 }
+
+
