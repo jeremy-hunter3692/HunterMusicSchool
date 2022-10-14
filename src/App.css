@@ -91,6 +91,20 @@
 color:rgb(55, 57, 57)
 }
 
+.videos {
+  display: grid;
+  
+  border:  solid;
+  width: 98vw;
+ 
+}
+/* figure out/replace with grid? */
+.frame {
+ display: inline-flex;
+ /* justify-content: flex-start; */
+margin: 1rem;
+}
+
 .about {
   display: flex;
   justify-content: center;
