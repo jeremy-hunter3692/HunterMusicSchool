@@ -1,7 +1,12 @@
 * { box-sizing: border-box;}
 
+ .appholder {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+} 
 
-body { margin: 0; }
+
 
 .nav {
   background-color: rgb(245, 242, 242);
@@ -12,6 +17,8 @@ body { margin: 0; }
   gap: 2rem;
   padding: 0 1rem;
   font-weight: 100;
+  /* width: 100; */
+  position: sticky;
 
 }
 
@@ -50,19 +57,16 @@ body { margin: 0; }
 .container {
   display: flex;
   justify-content: center;
-
-
 }
 
 
 
 
 .footer {
+  margin-top: auto; 
   display: flex;
   justify-content: center ;
- 
- 
-
+  /* bottom: 0; */
 }
 
 .footer ul {
@@ -77,17 +81,51 @@ body { margin: 0; }
 }
 
 .footer a {
+
   text-decoration: none;
   color: inherit;
 }
 
 .footer li:hover {
+
 color:rgb(55, 57, 57)
 }
-/* .App {
-  text-align: center;
+
+.about {
+  display: flex;
+  justify-content: center;
+  margin: 3rem 18rem 5rem;
+  padding: 1rem;
 }
 
+.home {
+  text-align: center;
+  color:rgb(245, 242, 242);
+  width:100vw;
+  height:90vh;
+}
+
+#nick {
+
+  width: 50%;
+  margin: .5rem;
+}
+#christy {
+
+  width: 50%;
+  margin: .5rem;
+}
+
+#nick img{
+  margin: .5rem;
+  float: right;
+}
+
+#christy img{ 
+  margin: .5rem;
+  float: left;
+}
+/* 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -123,4 +161,4 @@ color:rgb(55, 57, 57)
   }
 } */
 
-
+ 

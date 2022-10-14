@@ -1,6 +1,25 @@
 import React from 'react'
-import { Routes, Route } from 'react-router-dom'
 
 export default function Contact() {
-  return <h1>Contact</h1>
+  return (
+    <>
+      <div className="container">
+        <h4>Contact:</h4>
+        <ul>
+          <li> n_j_hunter19@hotmail.com</li> <li>christyell@hotmail.com</li>
+          <li>
+            <a href="https://www.youtube.com/channel/UCvDPyAjJ5RbpDXiVMg5beqg/videos">
+              YouTube
+            </a>
+          </li>
+          <li>
+            <a href="https://soundcloud.com/nick-hunter-410001996">
+              SoundCloud
+            </a>
+          </li>
+        </ul>
+      </div>
+      <br></br>
+    </>
+  )
 }
