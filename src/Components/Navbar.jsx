@@ -7,9 +7,10 @@ export default function Navbar() {
       {' '}
       <ul>
         <CustomLink to="/Home">Home</CustomLink>
+        <CustomLink to="/Videos">Videos</CustomLink>
         <CustomLink to="/About">About</CustomLink>
+        <CustomLink to="/Space">Space</CustomLink>
         <CustomLink to="/Contact">Contact</CustomLink>
-        <CustomLink to="/Videos">Video</CustomLink>
       </ul>
     </div>
   )

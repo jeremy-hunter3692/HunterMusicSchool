@@ -4,7 +4,12 @@ export default function Footer() {
   return (
     <footer className="footer">
       <ul>
-        <li> n_j_hunter19@hotmail.com</li> <li>christyell@hotmail.com</li>
+        <li>
+          <a href="mailto:n_j_hunter19@hotmail.com">n_j_hunter19@hotmail.com</a>
+        </li>
+        <li>
+          <a href="mailto:christyell@hotmail.com">christyell@hotmail.com</a>
+        </li>
         <li>
           <a href="https://www.youtube.com/channel/UCvDPyAjJ5RbpDXiVMg5beqg/videos">
             YouTube
