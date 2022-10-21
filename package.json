@@ -11,7 +11,8 @@
     "react-router-dom": "^6.4.2",
     "react-scripts": "5.0.1",
     "superagent": "^8.0.2",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "homepage" : "https://jeremy-hunter3692/.github.io/HunterMusicSchool/"
   },
   "scripts": {
     "start": "react-scripts start",
