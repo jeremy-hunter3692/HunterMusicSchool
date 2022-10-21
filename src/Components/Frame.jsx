@@ -13,10 +13,12 @@ export default function Frame({ src, text, title }) {
         // allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowFullScreen
       ></iframe>
-      <br></br>
+
       <div className="frametext">
-        <strong>{title}</strong>
-        <p>{text}</p>
+        <div>
+          <strong>{title}</strong>
+          <p>{text}</p>
+        </div>
       </div>
     </div>
   )

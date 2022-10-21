@@ -116,19 +116,30 @@ color:rgb(55, 57, 57)
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 1rem;
   padding: 3rem;
-  width: 98vw;
+  margin: 1rem;
+  width: 95vw;
+  background-color: rgb(245, 242, 242);
+  
  
 }
 /* figure out/replace with grid? rgb(252, 248, 248) */
 .frame {
-background:  linear-gradient(110deg, rgb(223, 223, 223), 20%, rgb(255, 255, 255)); 
+display: flex;
+background:  linear-gradient(340deg, rgb(241, 230, 230), 20%, rgb(255, 255, 255)); 
 
 margin: 0;
 padding: 0;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.frame img {
+  width: 80%;
+
 }
 
 .frametext {
-
+  display: flex;
+  width: 20%;
+  padding: 1rem;
   justify-content:left;
 }
 .about {
